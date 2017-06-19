@@ -17,7 +17,7 @@ public class Runner {
   //hopefully from these options some probability can be generated
   public static void main(String[] args) {
     // TODO Auto-generated method stub
-    System.out.println("Merlin v1.0");
+    System.out.println("Merlin v2.0");
     //setup the arraylist of players based on how many there are
     System.out.println("Please enter the number of players for each game");
     
