@@ -11,7 +11,7 @@ public class Player {
     name = str;
     trustScore = i;
   }
- 
+ //the trust score indicates how trustworthy they are. The higher the number, the more likely they are to be evil. 
   public String getName() {
     return name;
   }
