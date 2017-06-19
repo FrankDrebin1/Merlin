@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 public class CheckBox extends JPanel implements ItemListener {
-  
+  //should we add the machine learning in this class, or change it/make a new one entirely?
   public ArrayList<Player> players;
   public ArrayList<JCheckBox> boxes;
   public JCheckBox fail, update;
