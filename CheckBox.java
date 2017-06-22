@@ -130,11 +130,14 @@ public class CheckBox extends JPanel implements ItemListener {
     JFrame frame = new JFrame("Merlin v1.0");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     
+    
+
     //Create and set up the content pane.
     JComponent newContentPane = new CheckBox(players);
     newContentPane.setOpaque(true); //content panes must be opaque
     frame.setContentPane(newContentPane);
-    
+    getContentPane().setBackground(Color.BROWN);  //Whatever color
+
     //Display the window.
     frame.pack();
     frame.setVisible(true);
