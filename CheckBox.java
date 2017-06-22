@@ -136,7 +136,7 @@ public class CheckBox extends JPanel implements ItemListener {
     JComponent newContentPane = new CheckBox(players);
     newContentPane.setOpaque(true); //content panes must be opaque
     frame.setContentPane(newContentPane);
-    getContentPane().setBackground(Color.BROWN);  //Whatever color
+    frame.getContentPane().setBackground(Color.blue);  //Whatever color
 
     //Display the window.
     frame.pack();
