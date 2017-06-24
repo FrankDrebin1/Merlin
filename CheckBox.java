@@ -24,6 +24,10 @@ public class CheckBox extends JPanel implements ItemListener {
     
     for (int i = 0; i < players.size(); i++) {
       
+      //Quest leader button
+      boxes.add(new JCheckBox("Quest leader"));
+      boxes.get(i).setSelected(false);
+      
       //on mission button
       boxes.add(new JCheckBox("On the mission."));
       boxes.get(i).setSelected(false);
@@ -96,6 +100,12 @@ public class CheckBox extends JPanel implements ItemListener {
         if (failedMission) {
           players.get(i / 2).changeTrustScore(10); }//if the mission failed and they voted no, add to their trust score
         else {players.get(i /2).changeTrustScore(-10); }//if the mission passed and they voted no, decrease their trust score
+        
+        
+       //Who was quest leader- I added code for creating the checkbox but I am not sure how to add this part.
+     //put code here
+        
+        
       }
     } 
     
